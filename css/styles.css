@@ -823,6 +823,9 @@ img {
     flex-direction: column;
     align-items: center;
   }
+  .footer-style .container {
+    row-gap: 72px;
+  }
   .logo-footer-container,
   .footer-social-container,
   .subscribe-cont {
@@ -835,7 +838,6 @@ img {
     flex-direction: column;
   }
 }
-
 @media (max-width: 1157px) {
   .dscr-icon {
     display: none;
@@ -869,6 +871,12 @@ img {
   .studio-dscr {
     font-weight: 500;
   }
+  .team-section,
+  .portfolio-section,
+  .footer-style {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
@@ -888,4 +896,9 @@ img {
     padding-right: 36px;
     text-transform: capitalize;
   }
+  .team-list {
+    gap: 72px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1157px) {
 }
