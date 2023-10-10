@@ -835,6 +835,7 @@ img {
     flex-direction: column;
   }
 }
+
 @media (max-width: 1157px) {
   .dscr-icon {
     display: none;
@@ -857,6 +858,17 @@ img {
         url(../images/background-main-title-alt@2x.jpg);
     }
   }
+  .desc-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .studio-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .studio-dscr {
+    font-weight: 500;
+  }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
@@ -867,5 +879,13 @@ img {
   }
   .main-title-section {
     padding: 72px 0;
+  }
+  .main-title {
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 72px;
+    padding-left: 36px;
+    padding-right: 36px;
+    text-transform: capitalize;
   }
 }
