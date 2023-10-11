@@ -900,5 +900,10 @@ img {
     gap: 72px;
   }
 }
-@media (min-width: 767px) and (max-width: 1157px) {
+@media (min-width: 768px) {
+  .mobile-menu {
+    visibility: hidden;
+  }
+}
+@media (min-width: 768px) and (max-width: 1157px) {
 }
