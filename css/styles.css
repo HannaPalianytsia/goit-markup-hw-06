@@ -32,7 +32,7 @@ img {
   display: block;
 }
 .container {
-  width: auto;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -478,7 +478,8 @@ img {
   color: #fff;
 }
 .subscribe-btn {
-  min-width: 165px;
+  width: 165px;
+  margin: 0 auto;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -886,6 +887,7 @@ img {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
+    width: 320px;
     padding: 0 16px;
   }
   .page-header .container {
@@ -912,6 +914,9 @@ img {
   }
 }
 @media (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    width: 768px;
+  }
   .page-header .container {
     padding: 0 16px;
   }
